@@ -1,0 +1,80 @@
+.logo {
+    width: 150px;
+    margin-top: -30px;
+}
+
+.logoalign {
+    margin-left: -30px;
+}
+
+nav {
+    display: flex;
+    align-content: space-around;
+}
+
+.item {
+    margin-right: 25px;
+    color: #7D4AF6;
+    font-family: Arial;
+    text-align: center;
+    font-size: 25px;
+}
+
+.itemactive {
+    margin-right: 25px;
+    color: white;
+    background-color: #7D4AF6;
+    border-radius: 20px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 25px;
+    width: 100px;
+    outline: 5px;
+    height: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.input {
+    border-color: #4d2d96;
+    border-width: 2px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #7D4AF6;
+}
+
+.button {
+    height: 45px;
+    width: 45px;
+    border-radius: 20px;
+    border-color: #4d2d96;
+    background-color: #7D4AF6;
+    color: white;
+    font-size: 25px;
+    margin-left: -40px;
+}
+
+.centerinput {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutlogo {
+    width: 400px;
+    margin-top: -60px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,label {
+    font-family: arial;
+    color: #7D4AF6;
+}

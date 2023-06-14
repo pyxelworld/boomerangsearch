@@ -13,9 +13,9 @@
   <nav>
     <p>
       <p class="logoalign"><img class="logo" src="/logo.png"></p>
-      <a href="/"><p class="itemactive">Search</p></a>
+      <a href="/"><p class="item">Search</p></a>
       <a href="/images/"><p class="item">Images</p></a>
-      <a href="/news/"><p class="item">News</p></a>
+      <a href="/news/"><p class="itemactive">News</p></a>
       <a href="/weather/"><p class="item">Weather</p></a>
       <a href="/ai/"><p class="item">AI</p></a>
     </p>
@@ -24,7 +24,7 @@
 
   <div class="centerinput">
     <form class="flex">
-      <p><input type="text" name="name" class="input" required placeholder="Find anything..."/></p>
+      <p><input type="text" name="name" class="input" required placeholder="Find the news you want..."/></p>
       <p><input type="submit" class="button" value="✔" /></p>
     </form>
   </div>
@@ -32,7 +32,7 @@
 <script>
   $("form").submit(function(event) {
     event.preventDefault();
-    window.location.href = "https://cse.google.com/cse?cx=a73140864baf1467e#gsc.tab=0&gsc.q=" + $("input[name=name]").val();
+    window.location.href = "https://cse.google.com/cse?cx=a06d6ea8aad2248f8#gsc.tab=0&gsc.q=" + $("input[name=name]").val();
   });
 </script>
 </body>

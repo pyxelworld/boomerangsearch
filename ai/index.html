@@ -13,21 +13,32 @@
   <nav>
     <p>
       <p class="logoalign"><img class="logo" src="/logo.png"></p>
-      <a href="/"><p class="itemactive">Search</p></a>
+      <a href="/"><p class="item">Search</p></a>
       <a href="/images/"><p class="item">Images</p></a>
       <a href="/news/"><p class="item">News</p></a>
       <a href="/weather/"><p class="item">Weather</p></a>
-      <a href="/ai/"><p class="item">AI</p></a>
+      <a href="/ai/"><p class="itemactive">AI</p></a>
     </p>
     <a href="/about/"><p class="item">About</p></a>
   </nav>
 
-  <div class="centerinput">
-    <form class="flex">
-      <p><input type="text" name="name" class="input" required placeholder="Find anything..."/></p>
-      <p><input type="submit" class="button" value="✔" /></p>
-    </form>
+  <div class="content">
+    <div class="centerinput">
+      <form class="flex">
+        <p><input type="text" name="name" class="input" required placeholder="Find anything without AI..."/></p>
+        <p><input type="submit" class="button" value="✔" /></p>
+      </form>
+    </div>
+    <div style="height:600px; width:400px">
+      <iframe
+          src="https://ora.ai/embed/f78e35be-8e36-47e2-9bab-b4b3e83cf27d"
+          width="100%"
+          height="100%"
+          style="border:0; border-radius: 20px" 
+      ></iframe>
+    </div>
   </div>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
   $("form").submit(function(event) {
